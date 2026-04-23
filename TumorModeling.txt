@@ -1,0 +1,6 @@
+- Am extras rata de diviziune a mcf-7 egala cu 25 ore => 1/25 = 0.04
+- Am utilizat metoda diferentelor finite pentru difuzie de oxigen
+	- D = 0.1 parametru de difuzie, pentru a respecta criteriul Von Neumann de stabilitate pentru grila 2D discreta
+- Am tratat diferența uriașă dintre scările de timp astfel: 
+	- am decuplat procesul chimic (rapid) de cel biologic (lent). 
+	- În cadrul fiecărui pas de timp discret orar, am rulat 1000 de sub-iterații pentru difuzie. Acest lucru compensează limitarea de viteză a grilei numerice (criteriul Von Neumann) și permite oxigenului să atingă un cvasi-echilibru stabil pe întreaga rețea, reflectând astfel difuzia fizică ultra-rapidă a gazului în realitate, înainte ca celulele să ia decizia de diviziune sau necroză.
