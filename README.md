@@ -38,7 +38,7 @@ tumor-modelling/
 
 At a high level, the model combines:
 
-1. **Discrete spatial tumour representation** on a 2D lattice.
+1. **Discrete spatial tumor representation** on a 2D lattice.
 2. **Oxygen diffusion update** using finite-difference style numerical evolution.
 3. **Cell-state updates** driven by local oxygen thresholds and probabilistic rules.
 4. **Separated timescales** by running many diffusion sub-iterations per biological step.
