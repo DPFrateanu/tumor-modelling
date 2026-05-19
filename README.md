@@ -8,6 +8,7 @@ This repository contains exploratory Jupyter notebooks for lattice-based tumor g
 - [Repository Structure](#repository-structure)
 - [Modelling Approach](#modelling-approach)
 - [Notebook Guide](#notebook-guide)
+- [Results](#results)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Reproducibility Notes](#reproducibility-notes)
@@ -31,6 +32,10 @@ tumor-modelling/
 ├── digital-twin.ipynb  # Baseline exploratory oxygen-coupled tumor growth model
 ├── tamoxifen.ipynb     # Treatment-aware extension with tamoxifen effects
 ├── TumorModeling.txt   # Modelling notes and assumptions
+├── results/            # Generated result snapshots
+│   ├── Screenshot 2026-05-19 193129.png
+│   ├── Screenshot 2026-05-19 193201.png
+│   └── Screenshot 2026-05-19 193229.png
 └── README.md
 ```
 
@@ -63,6 +68,14 @@ Documented assumptions in `TumorModeling.txt` include:
 - Builds on the baseline structure by introducing treatment-related dynamics.
 - Adds tamoxifen-related diffusion/effect logic and treatment timing behavior.
 - Supports comparative analysis between untreated and treated progression patterns.
+
+## Results
+
+Representative outputs from the `results` folder:
+
+![Baseline tumor growth simulation output](results/Screenshot%202026-05-19%20193129.png)
+![Tumor oxygen and cell-state distribution output](results/Screenshot%202026-05-19%20193201.png)
+![Tumor response comparison under treatment conditions](results/Screenshot%202026-05-19%20193229.png)
 
 ## Requirements
 
