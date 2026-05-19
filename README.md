@@ -28,7 +28,7 @@ The implementation is notebook-centric, intended for iterative modelling, parame
 
 ```text
 tumor-modelling/
-├── digital-twin.ipynb  # Baseline oxygen-coupled tumor growth model
+├── digital-twin.ipynb  # Baseline exploratory oxygen-coupled tumor growth model
 ├── tamoxifen.ipynb     # Treatment-aware extension with tamoxifen effects
 ├── TumorModeling.txt   # Modelling notes and assumptions
 └── README.md
@@ -45,7 +45,7 @@ At a high level, the model combines:
 
 Documented assumptions in `TumorModeling.txt` include:
 
-- division rate motivation for MCF-7-like behavior,
+- rationale for MCF-7-like cell division rate assumptions,
 - use of diffusion parameter choices constrained by numerical stability,
 - decoupling fast chemical dynamics from slower biological transitions.
 
