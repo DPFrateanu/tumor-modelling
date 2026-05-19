@@ -73,9 +73,9 @@ Documented assumptions in `TumorModeling.txt` include:
 
 Representative outputs from the `results` folder:
 
-![Result snapshot 1](results/Screenshot%202026-05-19%20193129.png)
-![Result snapshot 2](results/Screenshot%202026-05-19%20193201.png)
-![Result snapshot 3](results/Screenshot%202026-05-19%20193229.png)
+![Tumor simulation result snapshot captured at 19:31:29](results/Screenshot%202026-05-19%20193129.png)
+![Tumor simulation result snapshot captured at 19:32:01](results/Screenshot%202026-05-19%20193201.png)
+![Tumor simulation result snapshot captured at 19:32:29](results/Screenshot%202026-05-19%20193229.png)
 
 ## Requirements
 
